@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSewZeDu6-8ax4Jl6Y9P9rPd4Zvws1Fd4Nf3enwNn9FD-599bQ/viewform?usp=header"
+    method="post"
+    >
+        <fieldset>
+            <legend>個人資料</legend>
+            <label for="fname">姓名:</label>
+            <input type="text" id="fname" name="fname" value="陳嘉翰"><br>
+            <lable for="lname">地址:</lable>
+            <input type="text" id=lname name="lname" value=""><br>
+        </fieldset>
+        <fieldset>
+            <legend>行程相關</legend>
+            可參加行程日期:(可複選)
+                <input type="checkbox" name="phone[]" value="期中考後" checked>期中考後
+                <input type="checkbox" name="phone[]" value="期末考後" checked>期末考後
+                <input type="checkbox" name="phone[]" value="暑假期間" checked>暑假期間<br>
+            喜歡的地點是:(單選)
+                <input type="radio" name="userage" value="澎湖">澎湖
+                <input type="radio" name="userage" value="綠島">小琉球
+                <input type="radio" name="userage" value="阿里山">台北101
+                <input type="radio" name="userage" value="台北101">花蓮<br>
+            其他行程建議:<textarea name="suggestion" cols="30" rows="3">其他需求或建議可以寫在此</textarea>
+        </fieldset>
+        <iframe src="https://forms.gle/qnySDXgTGFFzyQYz5" width="640" height="780" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+        <br>
+        <input type="submit" value="提交">
+        <input type="reset" value="重設">
+    </form>
+</body>
+</html>
